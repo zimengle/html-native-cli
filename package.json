@@ -1,0 +1,26 @@
+{
+  "name": "html-native-cli",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "description": "The Html Native CLI tools",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://icode.baidu.com/repo/baidu%2Freactnative%2Fhtml-native"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "html-native": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "minimist": "^1.2.0",
+    "prompt": "^0.2.14",
+    "semver": "^5.0.3"
+  }
+}
